@@ -1,4 +1,7 @@
 {
-  "squadName": "Super hero squad",
-  "homeTown": "Metro City"
+   "image": "https://raw.githubusercontent.com/Ospamox/test/main/catnft.jpg",
+   "name": "TON Smart Nft",
+   "description": "TON Smart Cat",
+   "social_links": ["https://github.com/Ospamox/twa-template/tree/main"]
+   "marketplace": "getgems.io"
 }
