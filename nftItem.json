@@ -1,0 +1,15 @@
+{
+   "image": "https://raw.githubusercontent.com/Ospamox/test/main/catnft.jpg",
+   "name": "Zero Nft",
+   "description": "Example",
+   "attributes": [
+           {
+           "trait type": "Age",
+           "value": "5"
+           },
+           {
+           "trait type": "Lesson",
+           "value": "6"
+            }
+    ]
+    }
