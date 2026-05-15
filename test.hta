@@ -1,10 +1,12 @@
 <html>
 <head>
+<hta:application />
 <script language="VBScript">
-    Set objShell = CreateObject("WScript.Shell")
- objShell.Run "powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -EncodedCommand VwByAGkAdABlAC0ASABvAHMAdAAgACIASABlAGwAbABvACBmAHIAbwBtACAAZQBuAGMAbwBkAGUAZAAgAGMAbwBtAG0AYQBuAGQAIgA="
-    //objShell.Run "powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -EncodedCommand <BASE64_COMMAND>"
-    //window.close()
+
+Set objShell = CreateObject("WScript.Shell")
+
+objShell.Run "powershell.exe -Command Write-Host ""Hello from encoded command"""
+
 </script>
 </head>
 </html>
